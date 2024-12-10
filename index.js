@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 
 const app = express();
 
-const PORT = 3000;
 const MONGO_URI =
   "mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
@@ -39,4 +38,4 @@ app.delete("/items/:id", async (req, res) => {
   res.json({ msg: "deleted" });
 });
 
-app.listen(PORT);
+app.listen(3000);
