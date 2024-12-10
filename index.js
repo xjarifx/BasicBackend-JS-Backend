@@ -3,12 +3,9 @@ import mongoose from "mongoose";
 
 const app = express();
 
-const MONGO_URI =
-  "mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
 app.use(express.json());
 
-mongoose.connect(MONGO_URI);
+mongoose.connect("mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 const itemSchema = new mongoose.Schema({
   name: String,
