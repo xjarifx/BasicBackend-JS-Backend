@@ -8,8 +8,8 @@ app.use(express.json());
 
 // ==================== Configuration ====================
 const MONGO_URI =
-  "mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-const SECRET_KEY = "your_secret_key"; // Replace with a secure key in production
+  "mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // I know it should be in .env
+const SECRET_KEY = "haha"; // Replace with a secure key in production
 const PORT = 3000;
 
 // ==================== Database Connection ====================
