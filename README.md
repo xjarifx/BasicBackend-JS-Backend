@@ -208,3 +208,6 @@ Error responses follow this format:
    - Enable CORS protection
    - Use HTTPS
    - Add input validation and sanitization
+
+
+"mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" {gift}
