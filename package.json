@@ -1,22 +1,22 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjarifx/ExpressMongodb-CorePartOnly.git"
+    "url": "git+https://github.com/xjarifx/BasicBackend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xjarifx/ExpressMongodb-CorePartOnly/issues"
+    "url": "https://github.com/xjarifx/BasicBackend.git/issues"
   },
-  "homepage": "https://github.com/xjarifx/ExpressMongodb-CorePartOnly#readme",
+  "homepage": "https://github.com/xjarifx/BasicBackend.git#readme",
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
