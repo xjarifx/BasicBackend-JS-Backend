@@ -46,7 +46,7 @@ The application uses the following environment variables:
 
 #### Register User
 ```
-POST /register
+POST /auth/register
 ```
 **Request Body:**
 ```json
@@ -65,7 +65,7 @@ POST /register
 
 #### Login
 ```
-POST /login
+POST /auth/login
 ```
 **Request Body:**
 ```json
