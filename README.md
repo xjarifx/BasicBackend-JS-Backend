@@ -211,5 +211,3 @@ Error responses follow this format:
 
 
 MONGO_URI=mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-SECRET_KEY=haha
-PORT=3000
