@@ -210,4 +210,4 @@ Error responses follow this format:
    - Add input validation and sanitization
 
 
-MONGO_URI=mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI="mongodb+srv://xjarifx:nca2aesv3fkEt8MA@cluster0.uh9xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
